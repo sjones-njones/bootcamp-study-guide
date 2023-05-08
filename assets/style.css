@@ -3,15 +3,20 @@
     padding: 0;
    }
    
-   header,
-   footer
+   header
     {
     width: 100%;
     height: 120px;
-    background-color: #E20F72;
+    color: #020202;
+    background-image: radial-gradient(circle, #00f9ff 39%, black 96%);
+   }
+   footer
+    {
+    width: 100%;
+    height: 60px;
+    background-image: radial-gradient(circle, #00f9ff 39%, black 96%);
     color: #020202;
    }
-   
    h1,
    h2 {
     text-align: center;
@@ -19,8 +24,8 @@
    
    img {
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     margin-left: auto;
     margin-right: auto;
    }
@@ -32,11 +37,18 @@
    
    p {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
    }
    .card {
   width: 80%;
   margin: 40px auto;
-  border: 2px solid #b30c59de;
+  border: 2px solid black;
   box-shadow: 7px 10px #4d4c4c;
-}
+background-color: #00f9ff  }
+h2 {
+  background-image: radial-gradient(circle, black 39%, #00f9ff 96%) ;
+  color: white;
+    border-top:4px dotted white;
+    border-bottom: .5em double white;
+  }
+      
