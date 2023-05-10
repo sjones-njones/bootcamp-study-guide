@@ -6,14 +6,14 @@
    header
     {
     width: 100%;
-    height: 120px;
+    height: 125px;
     color: #020202;
     background-image: radial-gradient(circle, #00f9ff 39%, black 96%);
    }
    footer
     {
     width: 100%;
-    height: 60px;
+    height: 135px;
     background-image: radial-gradient(circle, #00f9ff 39%, black 96%);
     color: #020202;
    }
@@ -28,6 +28,7 @@
     width: 70px;
     margin-left: auto;
     margin-right: auto;
+    padding:.25em
    }
    
    ul {
